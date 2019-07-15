@@ -14,7 +14,7 @@ const ports = {
 
 class CLI {
   constructor() {
-    this.config = new Config('bcoin', {
+    this.config = new Config('fcoin', {
       suffix: 'network',
       fallback: 'main',
       alias: {
@@ -33,7 +33,7 @@ class CLI {
       env: true
     });
 
-    this.config.open('bcoin.conf');
+    this.config.open('fcoin.conf');
 
     this.argv = this.config.argv;
     this.network = this.config.str('network', 'main');

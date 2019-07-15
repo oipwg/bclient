@@ -1,7 +1,7 @@
 {
-  "name": "bclient",
+  "name": "fclient",
   "version": "0.1.7",
-  "description": "Bcoin node and wallet client",
+  "description": "fcoin node and wallet client",
   "keywords": [
     "http",
     "request",
@@ -9,20 +9,20 @@
     "websockets"
   ],
   "license": "MIT",
-  "repository": "git://github.com/bcoin-org/bclient.git",
-  "homepage": "https://github.com/bcoin-org/bclient",
+  "repository": "git://github.com/oipwg/fclient.git",
+  "homepage": "https://github.com/oipwg/fclient",
   "bugs": {
-    "url": "https://github.com/bcoin-org/bclient/issues"
+    "url": "https://github.com/oipwg/fclient/issues"
   },
   "author": "Christopher Jeffrey <chjjeffrey@gmail.com>",
-  "main": "./lib/bclient.js",
+  "main": "./lib/fclient.js",
   "scripts": {
     "lint": "eslint lib/ || exit 0",
     "test": "bmocha --reporter spec test/*-test.js"
   },
   "bin": {
-    "bcoin-cli": "./bin/bcoin-cli",
-    "bwallet-cli": "./bin/bwallet-cli"
+    "fcoin-cli": "./bin/fcoin-cli",
+    "fwallet-cli": "./bin/fwallet-cli"
   },
   "dependencies": {
     "bcfg": "~0.1.6",
